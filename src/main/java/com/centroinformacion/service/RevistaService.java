@@ -20,4 +20,11 @@ public interface RevistaService {
 	public abstract List<Revista> listaRevistaPorNombreIgualActualiza(String nombre, int idRevista);
 	
 	
+	
+	
+	//para la consulta PC3
+		public abstract List<Revista> listaCompleja(String nombre, String frecuencia, Date fecIni, Date fecFin, int estado,	int idPais,	int idTipo);
+	
+	
+	
 }
